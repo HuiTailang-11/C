@@ -1,10 +1,8 @@
 #include <stdio.h>
-int main(){
-    int feet, fathom;
-    
-    fathom = 2;
-    feet = 6 * fathom;
-    printf ("there are %d feet in %d fathom!", feet, fathom);
-
+int main(void){
+    int i,  *p = &i;
+    i = 60;
+    // printf (p);
+    printf (*p);
     return 0;
 };
